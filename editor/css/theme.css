@@ -31,11 +31,11 @@
 
 /* Menubar */
 header {
-  background: #2882CA;
+  background: #262A35
 }
 header a,
 header > label {
-  color: #fff;
+  color: #99A8C5;
 }
 header a:hover,
 header > label:hover {
@@ -56,10 +56,10 @@ header > label:hover {
 }
 #charmenu a {
   color: #fff;
-  text-shadow: 0 0  0.25em #333;
-  border: 1px solid #2F6288;
+  text-shadow: 0 0  0.25em #30343F;
+  border: 1px solid #443888
   border-radius: 1em;
-  background: #2E71A5;
+  background: #423B89;
 }
 #charmenu a:hover {
   background: #458FC8;
