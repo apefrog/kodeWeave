@@ -62,8 +62,8 @@ header > label:hover {
   background: #423B89;
 }
 #charmenu a:hover {
-  background: #458FC8;
-  border: 1px solid #2D74AB;
+  background: #353D50
+  border: 1px solid #353D50;
   opacity: 1;
 }
 #charmenu a:active {
