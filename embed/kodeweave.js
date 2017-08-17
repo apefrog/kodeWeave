@@ -1,10 +1,12 @@
 // Show Editors If URL Contains Them
+/*
 // If domain is HTTP
 var site = window.location;
 site = site.toString();
 if (site.substring(0, 7) === "http://") {
   window.location.href = "https://" + site.substring(7, site.length);
 }
+*/
 
 // Fix libraries url direction to load sources 
 $(".libsources").each(function() {
@@ -459,7 +461,7 @@ if (!url) {
       $(".mainmenu a:not(.hide):first").trigger("click");
     }, 500);
   } else {
-    window.location.href = "https://mikethedj4.github.io/kodeWeave/embed/" + url + "?md,html,css,js,result";
+    window.location.href = "http://purifier.scavengergoat.com/kodeWeave/embed/" + url + "?md,html,css,js,result";
   }
   
   // Handles Menubar
@@ -576,7 +578,7 @@ if (!url) {
   updatePreview();
 
   // Edit on kodeWeave Link
-  $(".logo").attr("href", "https://mikethedj4.github.io/kodeWeave/editor/#" + hash.substring(0, hash.indexOf('?'))).attr("target", "_blank");
+  $(".logo").attr("href", "http://purifier.scavengergoat.com/kodeWeave/editor/#" + hash.substring(0, hash.indexOf('?'))).attr("target", "_blank");
 
   // Setup Preprocessors
   $(".settings").on("click", function() {
